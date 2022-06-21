@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Padlock Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-20">
+        Welcome to my <span class="font-semibold text-cyan-600">Padlock Bank</span> !!!
+      </h1>
+    </header>
+    <main>
+      <section class="w-2/4 bg-green-100 rounded mx-auto mt-8 p-8">
+        <h3 class="text-3xl mb-4">Please Login</h3>
+        <div>
+          <input
+            class="border-2 p-1.5 block border-gray-200 rounded w-3/4"
+            type="email"
+            name=""
+            id="user_email"
+            placeholder="Enter your email"
+          />
+          <input
+            class="border-2 p-1.5 block border-gray-200 rounded w-3/4 mt-3"
+            type="password"
+            name=""
+            id="user_password"
+            placeholder="Enter your password"
+          />
+          <button id="login_btn" class="bg-green-600 text-white mt-4 px-4 py-2 rounded font-medium text-xl">
+            Submit
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="js/login.js"></script>
+  </body>
+</html>
